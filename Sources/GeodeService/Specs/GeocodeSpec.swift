@@ -3,5 +3,5 @@
 public protocol GeocodeSpec {
 	associatedtype GeocodeListResult
 
-	func listGeocodes(forAddress address: String) async -> GeocodeListResult
+	func listGeocodes(for address: String) async -> GeocodeListResult
 }
